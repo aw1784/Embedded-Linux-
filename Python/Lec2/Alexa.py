@@ -5,6 +5,8 @@ import speech_recognition as sr
 import webbrowser
 from datetime import datetime
 from datetime import date
+import pyautogui
+from time import sleep
 
 
 def voice(responce,sleep_time):
@@ -58,6 +60,18 @@ def main():
             webbrowser.open("https://www.google.com")
             response = "Opening Google."
             voice(response,2)
+            sleep(2)
+            command = get_voice_command()
+            while 'search'in command:
+                command=command.split()
+                command.remove('search')
+                command.remove('for')
+                command= " ".join(command)
+                pyautogui.typewrite(command)
+                sleep(2)
+                pyautogui.hotkey("Enter")
+                break
+                
         elif 'matches today' in command:
             today = date.today()
             today= str(today).split("-")
@@ -67,7 +81,19 @@ def main():
             webbrowser.open(f"https://www.yallakora.com/match-center/%D9%85%D8%B1%D9%83%D8%B2-%D8%A7%D9%84%D9%85%D8%A8%D8%A7%D8%B1%D9%8A%D8%A7%D8%AA?date={today}#")
             response = "Today matches"
             voice(response,2)
-        
+            
+            
+        elif 'WhatsApp'in command:
+            try:
+                location=None
+                while location is None:
+                    location=pyautogui.locateOnScreen('what\'s.png')
+                    sleep(1)
+                pyautogui.click(location.left,location.top)
+            except pyautogui.ImageNotFoundException:
+                print("not found") 
+                
+                
         elif 'exit' in command:
             response = "I hope I have helped you, thank you for using me "
             voice(response,4)
