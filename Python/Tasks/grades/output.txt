@@ -1,0 +1,28 @@
+Alice: Grades = [85.0, 92.0, 78.0, 81.0, 90.0], Average = 85.20
+Bob: Grades = [90.0, 88.0, 84.0, 85.0, 87.0], Average = 86.80
+Charlie: Grades = [70.0, 75.0, 80.0, 73.0, 77.0], Average = 75.00
+David: Grades = [88.0, 90.0, 92.0, 91.0, 89.0], Average = 90.00
+Eve: Grades = [76.0, 85.0, 80.0, 82.0, 78.0], Average = 80.20
+Frank: Grades = [95.0, 93.0, 90.0, 92.0, 94.0], Average = 92.80
+Grace: Grades = [82.0, 87.0, 85.0, 86.0, 84.0], Average = 84.80
+Hannah: Grades = [79.0, 83.0, 78.0, 81.0, 80.0], Average = 80.20
+Ian: Grades = [88.0, 85.0, 90.0, 87.0, 86.0], Average = 87.20
+Jack: Grades = [92.0, 90.0, 91.0, 89.0, 93.0], Average = 91.00
+Kate: Grades = [88.0, 89.0, 91.0, 90.0, 87.0], Average = 89.00
+Leo: Grades = [77.0, 85.0, 80.0, 82.0, 79.0], Average = 80.60
+Mia: Grades = [92.0, 95.0, 90.0, 93.0, 91.0], Average = 92.20
+Nathan: Grades = [85.0, 87.0, 88.0, 86.0, 89.0], Average = 87.00
+Olivia: Grades = [91.0, 93.0, 92.0, 90.0, 94.0], Average = 92.00
+Paul: Grades = [70.0, 72.0, 75.0, 74.0, 71.0], Average = 72.40
+Quinn: Grades = [88.0, 89.0, 87.0, 85.0, 86.0], Average = 87.00
+Rachel: Grades = [80.0, 82.0, 85.0, 83.0, 84.0], Average = 82.80
+Sam: Grades = [78.0, 80.0, 79.0, 81.0, 82.0], Average = 80.00
+Tom: Grades = [85.0, 87.0, 88.0, 86.0, 84.0], Average = 86.00
+Uma: Grades = [90.0, 92.0, 91.0, 93.0, 89.0], Average = 91.00
+Vince: Grades = [85.0, 84.0, 83.0, 86.0, 87.0], Average = 85.00
+Wendy: Grades = [88.0, 90.0, 91.0, 89.0, 92.0], Average = 90.00
+Xander: Grades = [75.0, 77.0, 78.0, 76.0, 79.0], Average = 77.00
+Yara: Grades = [92.0, 91.0, 90.0, 93.0, 94.0], Average = 92.00
+Zoe: Grades = [88.0, 89.0, 87.0, 85.0, 86.0], Average = 87.00
+
+Top Student: Frank with an average grade of 92.80
