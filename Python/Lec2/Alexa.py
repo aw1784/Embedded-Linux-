@@ -83,7 +83,7 @@ def main():
             voice(response,2)
             
             
-        elif 'WhatsApp'in command:
+        elif 'whatsapp'in command.strip().lower():
             try:
                 location=None
                 while location is None:
